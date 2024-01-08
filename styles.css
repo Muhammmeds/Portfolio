@@ -29,6 +29,7 @@ p {
 a {
   color: #8b5a50;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 a:hover {
@@ -42,11 +43,16 @@ button {
   padding: 10px 20px;
   border: 1px solid #8b5a50;
   text-transform: uppercase;
+  border-radius: 50px;
   font-size: 13px;
+  transition: 0.3s;
 }
 
 button:hover {
-  color: #5a5a5a;
+  font-weight: 700;
+  transform: scale(1.1);
+  color: white;
+  background-color:#8b5a50 ;
   border: 1px solid #5a5a5a;
 }
 
@@ -83,10 +89,11 @@ button:hover {
 }
 
 .selfie {
-  background-image: url(img/selfie.jpeg);
+  background-image: url(img/selfie.JPG);
   background-position: 50% 60%;
-  height: 550px;
+  height: 570px;
   background-size: cover;
+  border-radius: 50px;
 }
 
 .dev-info {
@@ -109,6 +116,10 @@ button:hover {
   height: 50px;
   padding-left: 25px;
   font-weight: bold;
+  transition: 0.3s;
+}
+.about ul li:hover{
+    font-size: 20px;
 }
 
 .contact {
